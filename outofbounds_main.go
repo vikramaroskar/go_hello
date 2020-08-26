@@ -3,7 +3,7 @@ package main
 
 import "math/rand"
 
-func main() {
+func 1main() {
    list := []int{1, 2, 3}
 
    printList(list)

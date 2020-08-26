@@ -7,13 +7,14 @@ import (
 	"example.com/user/hello/morestrings"
 	"example.com/user/hello/streamcode"
 	"example.com/user/hello/channelcode"
+	"example.com/user/hello/datarace"
 	
 	"github.com/google/go-cmp/cmp"
 	
 	
 )
 
-func 1main() {
+func main() {
 	fmt.Println("Hello, world.")
 	
 	
@@ -46,6 +47,11 @@ func 1main() {
    	fmt.Println("------------------------------")	
 	fmt.Println("channelcode check")	
    channelcode.Channelcode()
+   
+   
+   fmt.Println("------------------------------")	
+	fmt.Println("datarace check")	
+	datarace.Datarace()
    
 }
 

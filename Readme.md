@@ -23,3 +23,11 @@ go run outofbounds_main.go
 `
 
 ####This will generate a `ssa.html` file
+
+
+## To check Data race
+currnet code is fixed with `atomic` package
+however, the one without it was giving out undeterministic data races
+`
+go run -race hello.go
+`
