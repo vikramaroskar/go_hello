@@ -31,3 +31,15 @@ however, the one without it was giving out undeterministic data races
 `
 go run -race hello.go
 `
+
+
+##Trace package
+
+`
+go test -trace=trace.out ./...
+
+go test -trace=trace.out .\morestrings\
+
+
+go tool trace trace.out
+`
