@@ -14,7 +14,7 @@ import (
 	
 )
 
-func 2main() {
+func main() {
 	fmt.Println("Hello, world.")
 	
 	

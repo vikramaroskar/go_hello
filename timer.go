@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-func main() {
+func 3main() {
 
 	sigs := make(chan os.Signal, 1)
 	
